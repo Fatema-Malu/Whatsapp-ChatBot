@@ -18,7 +18,7 @@ def GETfunc():
 
 @app.route('/', methods=["POST"])
 def POSTfunc():
-
+    print("something")
     receivedMsg = request.values.get("Body")
 
     print(receivedMsg)
